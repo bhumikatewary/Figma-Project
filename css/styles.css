@@ -1,0 +1,124 @@
+/*--------------- font google--------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;500&display=swap');
+
+
+/* global */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: black;
+    overflow-x: hidden;
+    font-weight: 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+h3{
+    font-size: 28px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 90px;
+    color: black;
+    padding-left: 150px;
+
+}
+
+
+/*=======navbar css========*/
+
+.navbar-area{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar{
+    position: relative;
+    padding: 20px 0;
+}
+
+.navbar-brand .image{
+    max-width: 150px;
+}
+
+.navbar-nav .nav-item{
+    position: relative;
+    margin-left: 25px;
+    
+}
+
+.navbar-nav .nav-item .nav-link{
+    position: relative;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+/*==========home css=============*/
+
+
+.paragraph{
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+line-height: 1em;
+text-align: center;
+padding-right: 80px;
+padding-top: 100px;
+}
+.header-hero{
+    position: relative;
+    top: 0;
+    height: 500px;
+    background-position: bottom-center;
+    padding: 50px;
+    padding-left: 400px;
+}
+
+.header-hero-content .header-title{
+    font-size: 95px;
+    color: black;
+    
+}
+
+.search{
+    padding-left: 250px;
+    padding-right: 400px;
+}
+
+
+
+
